@@ -1,0 +1,13 @@
+{
+    "kicker": "Frontend Developer Based on Yogyakarta · 2026",
+    "Header": "<line>Crafting Interfaces</line> <line>with PRECISION and Purpose</line>",
+    "desc": "Hi, I'm Vektor! A Frontend Developer who loves turning designs into fast, responsive, and intuitive web experiences. Currently building with React & Next.js.",
+    "ctaGithub": {
+        "label": "GitHub",
+        "href": "https://github.com/vektor-glitch"
+    },
+    "ctaProjects": {
+        "label": "My Projects",
+        "href": "#projects"
+    }
+}

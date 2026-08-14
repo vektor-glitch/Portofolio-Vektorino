@@ -1,0 +1,69 @@
+{
+    "header": {
+        "title": "My Recent Works",
+        "meta": "02 — Projects"
+    },
+    "interface": {
+        "projectprefix": "Project",
+        "conseptLabel": "Concept",
+        "actions": {
+            "deployment": "deployment",
+            "Repository": "github"
+        }
+    },
+    "projects": [
+        {
+            "id": "simpul",
+            "title": "Simpul",
+            "subtitle": "B2B Farm E-Commerce Platform.",
+            "concept": "A Business-to-Business (B2B) e-commerce platform designed to shorten the supply chain by directly connecting producers with buyers. It features Group Buying to secure the best prices.",
+            "stack": [
+                "Next.js",
+                "Typescript",
+                "React",
+                "Supabase",
+                "PostgreSQL",
+                "Tailwindcss",
+                "Midtrans API",
+                "RajaOngkir API"
+            ],
+            "imageurl": "/assets/simpul.webp",
+            "deployment": "simpul-phi.vercel.app",
+            "github": "https://github.com/vektor-glitch/Simpul"
+        },
+        {
+            "id": "quest-archive",
+            "title": "Quest Archive",
+            "subtitle": "Interactive video game encyclopedia and community rating arena.",
+            "concept": "A digital library platform to explore thousands of games, featuring a Rate Arena for the gaming community to provide in-depth reviews across various aspects, supported by a global leaderboard.",
+            "stack": [
+                "Next.js",
+                "React",
+                "Supabase",
+                "PostgreSQL",
+                "Tailwindcss",
+                "RAWG Games API"
+            ],
+            "imageurl": "/assets/questarchive.webp",
+            "deployment": "https://quest-archive.vercel.app",
+            "github": "https://github.com/vektor-glitch/QuestArchive"
+        },
+        {
+            "id": "freshtrack",
+            "title": "FreshTrack",
+            "subtitle": "Real-time inventory and freshness tracking system.",
+            "concept": "A comprehensive solution designed to monitor the lifecycle of fresh produce. It helps businesses track inventory, reduce waste, and ensure maximum freshness from farm to table.",
+            "stack": [
+                "HTML",
+                "CSS",
+                "PHP",
+                "Javascript",
+                "Tailwindcss",
+                "MySQL"
+            ],
+            "imageurl": "/assets/freshtrack.webp",
+            "deployment": "",
+            "github": "https://github.com/vektor-glitch/FreshTrack"
+        }
+    ]
+}

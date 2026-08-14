@@ -1,0 +1,21 @@
+{
+    "me": {
+        "name": "Vektorino",
+        "location": "Yogyakarta"
+    },
+    "navbar": {
+        "about": "ABOUT",
+        "works": "PROJECTS",
+        "cp": "Contact",
+        "close": "Close",
+        "status": "Status: Active"
+    },
+    "footer": {
+        "cta": {
+            "title": "Have a project?<br></br>Let's Collaborate<br></br>Together."
+        },
+        "socials": "Find me more on",
+        "Back": "Back to Top",
+        "copyright": "© {year} — Designed by Ananda Vektorino Ibrahim"
+    }
+}

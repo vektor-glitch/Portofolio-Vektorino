@@ -1,0 +1,40 @@
+{
+    "header": {
+        "title": "Who am I?",
+        "meta": "01 — Intoduction"
+    },
+    "headline": {
+        "name": "Ananda <serif>Vektorino </serif> Ibrahim",
+        "desc": "Undergraduate student of Bachelor Degree Information System at UPN 'Veteran' Yogyakarta with a strong interest in Frontend development. I enjoy transforming designs into interfaces that are not only visually appealing but also offer a seamless user experience."
+    },
+    "competencies": {
+        "stack": {
+            "label": "Tech Stack",
+            "items": [
+                "HTML",
+                "CSS",
+                "PHP",
+                "Javascript",
+                "React",
+                "Next.js",
+                "Typescript",
+                "MySQL",
+                "Supabase",
+                "PostgreSQL",
+                "Tailwindcss",
+                "Bootstrap",
+                "Figma",
+                "Git"
+            ]
+        },
+        "principles": {
+            "label": "Work Approach",
+            "items": [
+                "Design-Driven development",
+                "Problem Solving Oriented",
+                "Iterative Mindset",
+                "Collaborative by Nature"
+            ]
+        }
+    }
+}

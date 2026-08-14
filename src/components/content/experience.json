@@ -1,0 +1,32 @@
+{
+    "header": {
+        "title": "My Journey",
+        "meta": "03 — Experience"
+    },
+    "experiences": [
+        {
+            "periodTime": "2026 — Present",
+            "as": "Member Frontend Developer",
+            "institution": "Code124",
+            "desc": "Developing "
+        },
+        {
+            "periodTime": "2026 — 2027",
+            "as": "Creative Economy Staff",
+            "institution": "HIMASISFO UPNVY",
+            "desc": "Digitally promote products from the HIMASISFO creative economy sector and serve as a bridge between external parties and the internal creative economy team."
+        },
+        {
+            "periodTime": "2022 — 2025",
+            "as": "Documentation Crew",
+            "institution": "MasMis Band",
+            "desc": "Responsible for documenting and publishing MasMis Band's activities, such as gigs and rehearsals "
+        },
+        {
+            "periodTime": "2022 — 2025",
+            "as": "Design Publication and Documentation Crew",
+            "institution": "SMAVEN Events",
+            "desc": "Responsible for decorating, designing, publicizing, and documenting activities at SMAVEN events. "
+        }
+    ]
+}
