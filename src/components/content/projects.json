@@ -13,6 +13,46 @@
     },
     "projects": [
         {
+            "id": "himasisfo",
+            "title": "HIMASISFO (Unfinished)",
+            "subtitle": "Official Portal of the Information Systems Student Association.",
+            "concept": "A professional profile website and information portal designed for the Information Systems Student Association (HIMASISFO). It serves as a centralized platform to showcase student activities, share organizational news, and provide academic resources for the community.",
+            "stack": [
+                "Next.js",
+                "Typescript",
+                "React",
+                "Prisma",
+                "PostgreSQL",
+                "Docker",
+                "Tailwindcss",
+                "Vercel",
+                "Git"
+            ],
+            "imageurl": "/assets/simpul.webp",
+            "deployment": "",
+            "github": "https://github.com/ksmcode124/HimaSISFO"
+        },
+        {
+            "id": "behindtheweb",
+            "title": "BehindTheWeb (Unfinished)",
+            "subtitle": "Official Portal of The developer community from Code124",
+            "concept": "The official profile website and digital hub for the Code124 developer community. This platform is built to highlight community initiatives, share technological insights, and foster collaboration among developers and tech enthusiasts.",
+            "stack": [
+                "Next.js",
+                "Typescript",
+                "React",
+                "Prisma",
+                "PostgreSQL",
+                "Tailwindcss",
+                "RestfulAPI",
+                "Vercel",
+                "Git"
+            ],
+            "imageurl": "/assets/simpul.webp",
+            "deployment": "",
+            "github": "https://github.com/ksmcode124/HimaSISFO"
+        },
+        {
             "id": "simpul",
             "title": "Simpul",
             "subtitle": "B2B Farm E-Commerce Platform.",
@@ -25,7 +65,8 @@
                 "PostgreSQL",
                 "Tailwindcss",
                 "Midtrans API",
-                "RajaOngkir API"
+                "RajaOngkir API",
+                "Git"
             ],
             "imageurl": "/assets/simpul.webp",
             "deployment": "simpul-phi.vercel.app",
@@ -42,7 +83,8 @@
                 "Supabase",
                 "PostgreSQL",
                 "Tailwindcss",
-                "RAWG Games API"
+                "RAWG Games API",
+                "Git"
             ],
             "imageurl": "/assets/questarchive.webp",
             "deployment": "https://quest-archive.vercel.app",
@@ -59,7 +101,8 @@
                 "PHP",
                 "Javascript",
                 "Tailwindcss",
-                "MySQL"
+                "MySQL",
+                "Git"
             ],
             "imageurl": "/assets/freshtrack.webp",
             "deployment": "",
