@@ -1,5 +1,4 @@
 import { v2 as cloudinary, UploadApiResponse } from "cloudinary";
-import { error } from "console";
 import { NextRequest, NextResponse } from "next/server";
 
 cloudinary.config({
@@ -9,6 +8,7 @@ cloudinary.config({
 });
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // maksimal file upload 5MB
+const ALLOWED_TYPES = ["image/png", "image/jpg", "image/jpeg", "image/webp"];
 
 export async function POST(request: NextRequest) {
     try {
@@ -23,17 +23,26 @@ export async function POST(request: NextRequest) {
             );
         }
 
-        // double cek di server, karena validasi di client site itu bisa di baypass orang yang iseng buat manggil API langsung
-        if (!file.type.startsWith("image/")) {
+        // cek tipe file kalo ga sesuai
+        if (!ALLOWED_TYPES.includes(file.type)) {
             return NextResponse.json(
-                { error: "File size is too large!" },
+                { error: "File does not comply with the requirements." },
                 { status: 400 }
             );
+        }
+
+        // cek ukuran file
+        if (file.size > MAX_FILE_SIZE) {
+            return NextResponse.json(
+                { error: "File size are to big!" },
+                { status: 400 } // ini 400 karena error pada kesalahan client
+            )
         }
 
         const byte = await file.arrayBuffer(); // ini buat ngubah data menjadi kode biner
         const buffer = Buffer.from(byte); // ini karena node.js itu butuh tipe buffer buat diproses
         const base64 = `data:${file.type};base64,${buffer.toString("base64")}`;
+
         const result: UploadApiResponse = await cloudinary.uploader.upload(base64, {
             folder: "comment_photos",
             transformation: [
@@ -47,7 +56,7 @@ export async function POST(request: NextRequest) {
         console.error("Upload error:", error);
         return NextResponse.json(
             { error: "Failed to upload, please try again." },
-            { status: 400 }
+            { status: 500 } // ini 500 karena error di server
         );
     }
 }

@@ -33,16 +33,14 @@ export default function CommentSection() {
         return () => unsubscribe();
     }, []);
 
+    const ALLOWED_TYPES = ["image/jpg", "image/jpeg", "image/png", "image/webp"];
+
     const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
-        if (!file) {
-            setPhotoFile(null);
-            setPreview(null);
-            return;
-        }
+        if (!file) return;
 
-        if (!file.type.startsWith("image/")) {
-            setError("File must be an image (.jpg, .png, .webp)");
+        if (!ALLOWED_TYPES.includes(file.type)) {
+            setError("File does not comply with the requirements")
             return;
         }
 
