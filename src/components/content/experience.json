@@ -1,32 +1,78 @@
 {
     "header": {
-        "title": "My Journey",
-        "meta": "03 — Experience"
+        "meta": "Career archive",
+        "title": "Experiences",
+        "desc": "Roles, systems, and the work behind them."
     },
+    "backgroundText": "EXPERIENCES",
     "experiences": [
         {
+            "id": "code124",
+            "type": "Work",
             "periodTime": "2026 — Present",
-            "as": "Member Frontend Developer",
+            "duration": "Ongoing",
+            "as": "Frontend Developer",
             "institution": "Code124",
-            "desc": "Responsible for executing various front-end projects, particularly websites, using a React/Next.js approach."
+            "desc": "Responsible for executing various front-end projects, particularly websites, using a React/Next.js approach. Collaborating with the team to deliver clean, performant, and accessible user interfaces.",
+            "highlights": [
+                "Component-driven development",
+                "React / Next.js ecosystem",
+                "Cross-team collaboration",
+                "Code review & iteration"
+            ],
+            "imageurl": "",
+            "imageAlt": "Code124 team"
         },
         {
+            "id": "himasisfo",
+            "type": "Organization",
             "periodTime": "2026 — 2027",
+            "duration": "1 year",
             "as": "Creative Economy Staff",
             "institution": "HIMASISFO UPNVY",
-            "desc": "Digitally promote products from the HIMASISFO creative economy sector and serve as a bridge between external parties and the internal creative economy team."
+            "desc": "Digitally promote products from the HIMASISFO creative economy sector and serve as a bridge between external parties and the internal creative economy team.",
+            "highlights": [
+                "Digital content creation",
+                "Social media promotion",
+                "External communication",
+                "Event coordination"
+            ],
+            "imageurl": "",
+            "imageAlt": "HIMASISFO UPNVY team"
         },
         {
+            "id": "masmis",
+            "type": "Freelance",
             "periodTime": "2022 — 2025",
+            "duration": "3 years",
             "as": "Documentation Crew",
             "institution": "MasMis Band",
-            "desc": "Responsible for documenting and publishing MasMis Band's activities, such as gigs and rehearsals "
+            "desc": "Responsible for documenting and publishing MasMis Band's activities, such as gigs and rehearsals. Capturing key moments and crafting visual stories for the band's online presence.",
+            "highlights": [
+                "Event documentation",
+                "Photo & video editing",
+                "Social media publishing",
+                "Visual storytelling"
+            ],
+            "imageurl": "",
+            "imageAlt": "MasMis Band documentation"
         },
         {
+            "id": "smaven",
+            "type": "Organization",
             "periodTime": "2022 — 2025",
-            "as": "Design Publication and Documentation Crew",
+            "duration": "3 years",
+            "as": "Design & Documentation Crew",
             "institution": "SMAVEN Events",
-            "desc": "Responsible for decorating, designing, publicizing, and documenting activities at SMAVEN events. "
+            "desc": "Responsible for decorating, designing, publicizing, and documenting activities at SMAVEN events. Ensuring every event has a strong visual identity and lasting documentation.",
+            "highlights": [
+                "Event visual design",
+                "Publication materials",
+                "Event documentation",
+                "Decoration planning"
+            ],
+            "imageurl": "",
+            "imageAlt": "SMAVEN Events team"
         }
     ]
-}
+}

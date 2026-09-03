@@ -1,11 +1,45 @@
 {
-    "header": {
-        "title": "Who am I?",
-        "meta": "01 — Intoduction"
-    },
     "headline": {
-        "name": "Ananda <serif>Vektorino </serif> Ibrahim",
-        "desc": "Undergraduate student of Bachelor Degree Information System at UPN 'Veteran' Yogyakarta with a strong interest in Frontend development. I enjoy transforming designs into interfaces that are not only visually appealing but also offer a seamless user experience."
+        "lines": [
+            {
+                "words": [
+                    { "text": "I", "highlight": false },
+                    { "text": "craft", "highlight": false },
+                    { "text": "fast,", "highlight": true },
+                    { "text": "responsive,", "highlight": true }
+                ]
+            },
+            {
+                "words": [
+                    { "text": "and", "highlight": false },
+                    { "text": "intuitive", "highlight": false },
+                    { "text": "web", "highlight": true },
+                    { "text": "interfaces", "highlight": true }
+                ]
+            },
+            {
+                "words": [
+                    { "text": "with", "highlight": false },
+                    { "text": "precision", "highlight": false },
+                    { "text": "and", "highlight": false },
+                    { "text": "purpose.", "highlight": true }
+                ]
+            }
+        ],
+        "desc": "I enjoy transforming designs into interfaces that are not only visually appealing but also offer a seamless user experience. Crafting interface with precision and purpose"
+    },
+    "marquee": {
+        "items": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Figma",
+            "Firebase",
+            "Supabase",
+            "PostgreSQL",
+            "Git"
+        ]
     },
     "competencies": {
         "stack": {
@@ -20,6 +54,7 @@
                 "Typescript",
                 "MySQL",
                 "Supabase",
+                "Firebase",
                 "PostgreSQL",
                 "Tailwindcss",
                 "Bootstrap",
@@ -37,4 +72,4 @@
             ]
         }
     }
-}
+}

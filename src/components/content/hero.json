@@ -1,0 +1,24 @@
+{
+    "location": "Yogyakarta · Indonesia",
+    "greetings": "Hi, I'm",
+    "name": "Vektor.",
+    "roles": [
+        "Junior Web Developer",
+        "Frontend Enthusiasts",
+        "Learner by Doing"
+    ],
+    "desc": "Hi, I'm Vektor! A Frontend Developer who loves turning designs into fast, responsive, and intuitive web experiences. I love crafting interface with precision and purpose",
+    "availability": "Available for work!",
+    "handle": "@vektor.glitch",
+    "resumeLabel": "Resume",
+    "resumeHref": "/resume",
+    "scrollIndicator": "Scroll Down",
+    "ctaGithub": {
+        "label": "GitHub",
+        "href": "https://github.com/vektor-glitch"
+    },
+    "ctaProjects": {
+        "label": "My Projects",
+        "href": "#projects"
+    }
+}

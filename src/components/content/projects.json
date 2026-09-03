@@ -1,20 +1,26 @@
 {
     "header": {
-        "title": "My Recent Works",
-        "meta": "02 — Projects"
+        "meta": "Selected works",
+        "title": "Projects",
+        "desc": "Things I've built, shipped, and learned from."
     },
+    "backgroundText": "PROJECTS",
     "interface": {
-        "projectprefix": "Project",
-        "conseptLabel": "Concept",
+        "projectPrefix": "Project",
+        "conceptLabel": "About this project",
+        "stackLabel": "Stack",
+        "viewAll": "View all projects",
         "actions": {
-            "deployment": "deployment",
-            "Repository": "github"
+            "deployment": "Live demo",
+            "repository": "GitHub"
         }
     },
     "projects": [
         {
             "id": "himasisfo",
-            "title": "HIMASISFO (Unfinished)",
+            "type": "Web App",
+            "status": "In Progress",
+            "title": "HIMASISFO",
             "subtitle": "Official Portal of the Information Systems Student Association.",
             "concept": "A professional profile website and information portal designed for the Information Systems Student Association (HIMASISFO). It serves as a centralized platform to showcase student activities, share organizational news, and provide academic resources for the community.",
             "stack": [
@@ -29,13 +35,16 @@
                 "Git"
             ],
             "imageurl": "/assets/simpul.webp",
+            "imageAlt": "HIMASISFO portal interface",
             "deployment": "",
             "github": "https://github.com/ksmcode124/HimaSISFO"
         },
         {
             "id": "behindtheweb",
-            "title": "BehindTheWeb (Unfinished)",
-            "subtitle": "Official Portal of The developer community from Code124",
+            "type": "Web App",
+            "status": "In Progress",
+            "title": "BehindTheWeb",
+            "subtitle": "Official Portal of The developer community from Code124.",
             "concept": "The official profile website and digital hub for the Code124 developer community. This platform is built to highlight community initiatives, share technological insights, and foster collaboration among developers and tech enthusiasts.",
             "stack": [
                 "Next.js",
@@ -49,11 +58,14 @@
                 "Git"
             ],
             "imageurl": "/assets/simpul.webp",
+            "imageAlt": "BehindTheWeb community portal",
             "deployment": "",
             "github": "https://github.com/ksmcode124/HimaSISFO"
         },
         {
             "id": "simpul",
+            "type": "E-Commerce",
+            "status": "Shipped",
             "title": "Simpul",
             "subtitle": "B2B Farm E-Commerce Platform.",
             "concept": "A Business-to-Business (B2B) e-commerce platform designed to shorten the supply chain by directly connecting producers with buyers. It features Group Buying to secure the best prices.",
@@ -69,11 +81,14 @@
                 "Git"
             ],
             "imageurl": "/assets/simpul.webp",
-            "deployment": "simpul-phi.vercel.app",
+            "imageAlt": "Simpul B2B farm marketplace",
+            "deployment": "https://simpul-phi.vercel.app",
             "github": "https://github.com/vektor-glitch/Simpul"
         },
         {
             "id": "quest-archive",
+            "type": "Web App",
+            "status": "Shipped",
             "title": "Quest Archive",
             "subtitle": "Interactive video game encyclopedia and community rating arena.",
             "concept": "A digital library platform to explore thousands of games, featuring a Rate Arena for the gaming community to provide in-depth reviews across various aspects, supported by a global leaderboard.",
@@ -87,11 +102,14 @@
                 "Git"
             ],
             "imageurl": "/assets/questarchive.webp",
+            "imageAlt": "Quest Archive game library interface",
             "deployment": "https://quest-archive.vercel.app",
             "github": "https://github.com/vektor-glitch/QuestArchive"
         },
         {
             "id": "freshtrack",
+            "type": "Internal Tool",
+            "status": "Shipped",
             "title": "FreshTrack",
             "subtitle": "Real-time inventory and freshness tracking system.",
             "concept": "A comprehensive solution designed to monitor the lifecycle of fresh produce. It helps businesses track inventory, reduce waste, and ensure maximum freshness from farm to table.",
@@ -105,8 +123,9 @@
                 "Git"
             ],
             "imageurl": "/assets/freshtrack.webp",
+            "imageAlt": "FreshTrack inventory dashboard",
             "deployment": "",
             "github": "https://github.com/vektor-glitch/FreshTrack"
         }
     ]
-}
+}

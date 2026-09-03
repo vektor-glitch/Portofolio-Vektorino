@@ -1,21 +1,77 @@
 {
     "me": {
-        "name": "Vektorino",
-        "location": "Yogyakarta"
+        "name": "Ananda Vektorino Ibrahim",
+        "shortName": "Vektorino",
+        "handle": "@vektor.glitch",
+        "email": "vektorino12@gmail.com",
+        "role": "Frontend Developer",
+        "availability": "Available for work!",
+        "location": {
+            "city": "Yogyakarta",
+            "region": "Special Region of Yogyakarta",
+            "countryCode": "ID"
+        }
     },
     "navbar": {
-        "about": "ABOUT",
-        "works": "PROJECTS",
-        "cp": "Contact",
+        "logo": "V / Portfolio",
+        "logoMark": "V",
+        "menu": "Menu",
         "close": "Close",
-        "status": "Status: Active"
+        "links": [
+            {
+                "label": "Home",
+                "href": "#home"
+            },
+            {
+                "label": "About",
+                "href": "#about"
+            },
+            {
+                "label": "Experience",
+                "href": "#experience"
+            },
+            {
+                "label": "Projects",
+                "href": "#projects"
+            },
+            {
+                "label": "Contact",
+                "href": "#contact"
+            }
+        ],
+        "socialsLabel": "Socials"
     },
-    "footer": {
-        "cta": {
-            "title": "Have a project?<br></br>Let's Collaborate<br></br>Together."
+    "socials": [
+        {
+            "label": "Resume",
+            "href": "/resume",
+            "isDownload": false,
+            "isExternal": true
         },
-        "socials": "Find me more on",
-        "Back": "Back to Top",
-        "copyright": "© {year} — Designed by Ananda Vektorino Ibrahim"
+        {
+            "label": "GitHub",
+            "href": "https://github.com/vektor-glitch",
+            "isDownload": false,
+            "isExternal": true
+        },
+        {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/ananda-vektorino-129294385/",
+            "isDownload": false,
+            "isExternal": true
+        },
+        {
+            "label": "Instagram",
+            "href": "https://instagram.com/vctrswrld",
+            "isDownload": false,
+            "isExternal": true
+        }
+    ],
+    "footer": {
+        "subtitle": "GET IN TOUCH",
+        "backgroundText": "VEKTORINO",
+        "headline": "LET'S WORK TOGETHER",
+        "emailLabel": "Email me",
+        "copyright": "© {year} ANANDA VEKTORINO IBRAHIM. ALL RIGHTS RESERVED."
     }
 }
